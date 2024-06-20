@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Ticket Selling</string>
+    <string name="title_flights">Авиабилеты</string>
+    <string name="title_hotels">Отели</string>
+    <string name="title_briefly">Короче</string>
+    <string name="title_subscriptions">Подписки</string>
+    <string name="title_profile">Профиль</string>
+    <string name="search_title">Поиск дешевых авиабилетов</string>
+    <string name="text_first_time">Ваш первый раз</string>
+    <string name="title_recycle">Музыкально отлететь</string>
+    <string name="town_offer">город</string>
+    <string name="title_offer">заголовок</string>
+    <string name="price_offer">цена</string>
+    <string name="price_from">от</string>
+    <string name="populars">Популярное направление</string>
+    <string name="direct_flights">Прямые рейсы</string>
+    <string name="see_all">Показать все</string>
+    <string name="data_start_title_text">Дата вылета</string>
+
+
+</resources>
