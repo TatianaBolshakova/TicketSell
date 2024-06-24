@@ -39,7 +39,7 @@ class TicketsOfferAdapter(
         val item = data.getOrNull(position)
         with(holder.binding) {
             company.text = item?.title?:"Company"
-            price.text = item?.price?.value.toString()
+            price.text = "${item?.price?.value} ₽"
             times.text = item?.timeRange?.joinToString{time -> time}
             icon.setImageResource(images[position])
 

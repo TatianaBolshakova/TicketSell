@@ -9,8 +9,10 @@ import com.example.ticketselling.R
 import com.example.ticketselling.databinding.TicketsItemBinding
 import com.example.ticketselling.viewholder.TicketsViewHolder
 import com.google.android.material.datepicker.SingleDateSelector
+import java.text.NumberFormat
 import java.text.SimpleDateFormat
 import java.time.LocalTime
+import java.util.Locale
 
 
 class TicketsAdapter(
@@ -38,7 +40,7 @@ class TicketsAdapter(
         val item = data.getOrNull(position)
         with(holder.binding) {
 
-            textPrice.text = "${item?.priceDomain?.value.toString()} P"
+            textPrice.text = "${item?.priceDomain?.value} ₽"
             departureDate.text = item?.departure?.date?.takeLast(5)
             arrialDate.text = item?.arrival?.date?.takeLast(5)
             company.text = item?.departure?.airport.toString()
