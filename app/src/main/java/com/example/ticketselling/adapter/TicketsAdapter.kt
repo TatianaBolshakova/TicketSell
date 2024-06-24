@@ -8,11 +8,6 @@ import com.example.domain.models.ItemsTickets
 import com.example.ticketselling.R
 import com.example.ticketselling.databinding.TicketsItemBinding
 import com.example.ticketselling.viewholder.TicketsViewHolder
-import com.google.android.material.datepicker.SingleDateSelector
-import java.text.NumberFormat
-import java.text.SimpleDateFormat
-import java.time.LocalTime
-import java.util.Locale
 
 
 class TicketsAdapter(
